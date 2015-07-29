@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8751A111B697A4100FDE7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8751A101B697A4100FDE7C0 /* AppDelegate.swift */; };
+		A8751A131B697A4100FDE7C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8751A121B697A4100FDE7C0 /* ViewController.swift */; };
+		A8751A161B697A4100FDE7C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8751A141B697A4100FDE7C0 /* Main.storyboard */; };
+		A8751A181B697A4100FDE7C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8751A171B697A4100FDE7C0 /* Images.xcassets */; };
+		A8751A1B1B697A4100FDE7C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8751A191B697A4100FDE7C0 /* LaunchScreen.xib */; };
+		A8751A271B697A4200FDE7C0 /* JuegoAdivinaIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8751A261B697A4200FDE7C0 /* JuegoAdivinaIOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8751A211B697A4200FDE7C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8751A031B697A4100FDE7C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8751A0A1B697A4100FDE7C0;
+			remoteInfo = JuegoAdivinaIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8751A0B1B697A4100FDE7C0 /* JuegoAdivinaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuegoAdivinaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8751A0F1B697A4100FDE7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8751A101B697A4100FDE7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8751A121B697A4100FDE7C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8751A151B697A4100FDE7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8751A171B697A4100FDE7C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8751A1A1B697A4100FDE7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A8751A201B697A4200FDE7C0 /* JuegoAdivinaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuegoAdivinaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8751A251B697A4200FDE7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8751A261B697A4200FDE7C0 /* JuegoAdivinaIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoAdivinaIOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8751A081B697A4100FDE7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8751A1D1B697A4200FDE7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8751A021B697A4100FDE7C0 = {
+			isa = PBXGroup;
+			children = (
+				A8751A0D1B697A4100FDE7C0 /* JuegoAdivinaIOS */,
+				A8751A231B697A4200FDE7C0 /* JuegoAdivinaIOSTests */,
+				A8751A0C1B697A4100FDE7C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8751A0C1B697A4100FDE7C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8751A0B1B697A4100FDE7C0 /* JuegoAdivinaIOS.app */,
+				A8751A201B697A4200FDE7C0 /* JuegoAdivinaIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8751A0D1B697A4100FDE7C0 /* JuegoAdivinaIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8751A101B697A4100FDE7C0 /* AppDelegate.swift */,
+				A8751A121B697A4100FDE7C0 /* ViewController.swift */,
+				A8751A141B697A4100FDE7C0 /* Main.storyboard */,
+				A8751A171B697A4100FDE7C0 /* Images.xcassets */,
+				A8751A191B697A4100FDE7C0 /* LaunchScreen.xib */,
+				A8751A0E1B697A4100FDE7C0 /* Supporting Files */,
+			);
+			path = JuegoAdivinaIOS;
+			sourceTree = "<group>";
+		};
+		A8751A0E1B697A4100FDE7C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8751A0F1B697A4100FDE7C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8751A231B697A4200FDE7C0 /* JuegoAdivinaIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8751A261B697A4200FDE7C0 /* JuegoAdivinaIOSTests.swift */,
+				A8751A241B697A4200FDE7C0 /* Supporting Files */,
+			);
+			path = JuegoAdivinaIOSTests;
+			sourceTree = "<group>";
+		};
+		A8751A241B697A4200FDE7C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8751A251B697A4200FDE7C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8751A0A1B697A4100FDE7C0 /* JuegoAdivinaIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8751A2A1B697A4200FDE7C0 /* Build configuration list for PBXNativeTarget "JuegoAdivinaIOS" */;
+			buildPhases = (
+				A8751A071B697A4100FDE7C0 /* Sources */,
+				A8751A081B697A4100FDE7C0 /* Frameworks */,
+				A8751A091B697A4100FDE7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JuegoAdivinaIOS;
+			productName = JuegoAdivinaIOS;
+			productReference = A8751A0B1B697A4100FDE7C0 /* JuegoAdivinaIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8751A1F1B697A4200FDE7C0 /* JuegoAdivinaIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8751A2D1B697A4200FDE7C0 /* Build configuration list for PBXNativeTarget "JuegoAdivinaIOSTests" */;
+			buildPhases = (
+				A8751A1C1B697A4200FDE7C0 /* Sources */,
+				A8751A1D1B697A4200FDE7C0 /* Frameworks */,
+				A8751A1E1B697A4200FDE7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8751A221B697A4200FDE7C0 /* PBXTargetDependency */,
+			);
+			name = JuegoAdivinaIOSTests;
+			productName = JuegoAdivinaIOSTests;
+			productReference = A8751A201B697A4200FDE7C0 /* JuegoAdivinaIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8751A031B697A4100FDE7C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "PV Comunicaciones S.A de C.V.";
+				TargetAttributes = {
+					A8751A0A1B697A4100FDE7C0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A8751A1F1B697A4200FDE7C0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A8751A0A1B697A4100FDE7C0;
+					};
+				};
+			};
+			buildConfigurationList = A8751A061B697A4100FDE7C0 /* Build configuration list for PBXProject "JuegoAdivinaIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8751A021B697A4100FDE7C0;
+			productRefGroup = A8751A0C1B697A4100FDE7C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8751A0A1B697A4100FDE7C0 /* JuegoAdivinaIOS */,
+				A8751A1F1B697A4200FDE7C0 /* JuegoAdivinaIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8751A091B697A4100FDE7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8751A161B697A4100FDE7C0 /* Main.storyboard in Resources */,
+				A8751A1B1B697A4100FDE7C0 /* LaunchScreen.xib in Resources */,
+				A8751A181B697A4100FDE7C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8751A1E1B697A4200FDE7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8751A071B697A4100FDE7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8751A131B697A4100FDE7C0 /* ViewController.swift in Sources */,
+				A8751A111B697A4100FDE7C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8751A1C1B697A4200FDE7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8751A271B697A4200FDE7C0 /* JuegoAdivinaIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8751A221B697A4200FDE7C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8751A0A1B697A4100FDE7C0 /* JuegoAdivinaIOS */;
+			targetProxy = A8751A211B697A4200FDE7C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8751A141B697A4100FDE7C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8751A151B697A4100FDE7C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8751A191B697A4100FDE7C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8751A1A1B697A4100FDE7C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8751A281B697A4200FDE7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8751A291B697A4200FDE7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8751A2B1B697A4200FDE7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JuegoAdivinaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8751A2C1B697A4200FDE7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JuegoAdivinaIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8751A2E1B697A4200FDE7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JuegoAdivinaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuegoAdivinaIOS.app/JuegoAdivinaIOS";
+			};
+			name = Debug;
+		};
+		A8751A2F1B697A4200FDE7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JuegoAdivinaIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JuegoAdivinaIOS.app/JuegoAdivinaIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8751A061B697A4100FDE7C0 /* Build configuration list for PBXProject "JuegoAdivinaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8751A281B697A4200FDE7C0 /* Debug */,
+				A8751A291B697A4200FDE7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8751A2A1B697A4200FDE7C0 /* Build configuration list for PBXNativeTarget "JuegoAdivinaIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8751A2B1B697A4200FDE7C0 /* Debug */,
+				A8751A2C1B697A4200FDE7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8751A2D1B697A4200FDE7C0 /* Build configuration list for PBXNativeTarget "JuegoAdivinaIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8751A2E1B697A4200FDE7C0 /* Debug */,
+				A8751A2F1B697A4200FDE7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8751A031B697A4100FDE7C0 /* Project object */;
+}
